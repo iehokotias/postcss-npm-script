@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+@import "component/header";
+
+:root {
+  --gray-200: #fafafa;
+  --gray-400: #666;
+  --text-2xl: 64px;
+  --space-8: 32px;
+}

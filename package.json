@@ -1,0 +1,21 @@
+{
+  "name": "postcss-npm-script",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev-build": "postcss -o assets/css/style.css source/css/*.css",
+    "build": "postcss -o assets/css/style.css source/css/*.css --env production --no-map",
+    "dev-build:w": "postcss -o assets/css/style.css source/css/*.css -w",
+    "build:w": "postcss -o assets/css/style.css source/css/*.css --env production --no-map -w"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^6.0.1",
+    "postcss": "^8.4.29",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "postcss-preset-env": "^9.1.2"
+  }
+}
