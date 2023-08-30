@@ -12,10 +12,10 @@
 
 ```
 "scripts": {
-  "dev-build": "postcss -o assets/css/style.css source/css/*.css",
-  "build": "postcss -o assets/css/style.css source/css/*.css --env production --no-map",
-  "dev-build:w": "postcss -o assets/css/style.css source/css/*.css -w",
-  "build:w": "postcss -o assets/css/style.css source/css/*.css --env production --no-map -w"
+  "dev-build": "postcss -o assets/css/style.css pcss/*.css",
+  "build": "postcss -o assets/css/style.css pcss/*.css --env production --no-map",
+  "dev-build:w": "postcss -o assets/css/style.css pcss/*.css -w",
+  "build:w": "postcss -o assets/css/style.css pcss/*.css --env production --no-map -w"
 },
 ```
 
@@ -43,4 +43,4 @@ build の際はターミナル（コマンドプロント）でこのディレ�
 # 開発について
 
 - パーツごとにファイルを分割して開発するイメージです。
-- scss/js それぞれ `./source/css` 内のファイルの変更を行い、ビルド後のファイルは `./assets/css` 内に書き出されます。
+- scss/js それぞれ `./pcss` 内のファイルの変更を行い、ビルド後のファイルは `./assets/css` 内に書き出されます。
