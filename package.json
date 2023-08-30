@@ -4,10 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev-build": "postcss -o assets/css/style.css source/css/*.css",
-    "build": "postcss -o assets/css/style.css source/css/*.css --env production --no-map",
-    "dev-build:w": "postcss -o assets/css/style.css source/css/*.css -w",
-    "build:w": "postcss -o assets/css/style.css source/css/*.css --env production --no-map -w"
+    "dev-build": "postcss -o assets/css/style.css pcss/*.css",
+    "build": "postcss -o assets/css/style.css pcss/*.css --env production --no-map",
+    "dev-build:w": "postcss -o assets/css/style.css pcss/*.css -w",
+    "build:w": "postcss -o assets/css/style.css pcss/*.css --env production --no-map -w"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.15",
